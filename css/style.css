@@ -5,7 +5,23 @@
 header, .alert{
     z-index: 100;
 }
+/* home */
+.home{
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.home_art{
+    grid-column: 2/3;
+}
+.home_art_flex{
+    display: flex;
+    justify-content: right;
+}
 
+.img_home{
+    width: 200px;
+}
 /* description card */
 .description{
     height: 10px;
@@ -56,4 +72,24 @@ header, .alert{
 /**/
 .hide{
     display: none;
+}
+
+@media only screen and (max-width: 700px) {
+/* home */
+.home{
+    /* margin: 0 auto; */
+    width: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.home_art{
+    grid-column: span 2 ;
+}
+    /* description card */
+.description{
+    height: 50px;
+    /* overflow: hidden; */
+    /* transition: height .3s ease-in .3s; */
+} 
+
 }

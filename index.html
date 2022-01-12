@@ -10,178 +10,194 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="bg-dark">
-    <header class="container-fluid bg-dark position-sticky top-0 ">
-
-        <ul class="nav nav-tabs container mb-1 py-2" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <a class="nav-link " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
-                    aria-controls="home" aria-selected="true">Home</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                    role="tab" aria-controls="profile" aria-selected="false">Productos</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-                    role="tab" aria-controls="contact" aria-selected="false">Carrito</a>
-            </li>
-        </ul>
-    </header>
-    <!-- Alert BOOSTRAP -->
-    <div class="alert alert-primary container position-sticky top-0 hide text-center" role="alert">
-        Producto añadido al carrito
-    </div>
-    <div class="alert alertDelete alert-danger container position-sticky top-0 hide text-center" role="alert">
-        Producto Eliminado del carrito
-      </div>
-
-    <main class="tab-content" id="myTabContent">
-        <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">.1.1.1</div>
-
-        <div class="tab-pane fade  container" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <h4 class="text-primary text-center">Productos</h4>
-
-            <section class="row row-cols-sm-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-                <!-- art1 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Pizza</h5>
-                        <img src="img/pizza-23477.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Porcion de pizza</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$200</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art2 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Papas Fritas</h5>
-                        <img src="img/cartoon-chips-2029737.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Porcion de Papas Fritas</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$200</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art3 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Hamburguesa</h5>
-                        <img src="img/cheeseburger-34315.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Hamburgusa Clasica</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$500</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art4 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Galleta</h5>
-                        <img src="img/anthropomorphic-1297309.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Galletita jengibre</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$100</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art5 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Cerveza</h5>
-                        <img src="img/beer-311090.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Porron de Cerveza</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$300</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art6 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Huevo Frito</h5>
-                        <img src="img/egg-575756.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Para mojar el pancito</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$150</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art7 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Jugo de naranja</h5>
-                        <img src="img/juice-25189.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">juguito en carton</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$100</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- art8 -->
-                <article class="col d-flex justify-content-center mb-2">
-                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                        <h5 class="card-title pt-2 text-center text-primary">Papitas</h5>
-                        <img src="img/cartoon-chips-2029737.svg" class="card-img-top img" alt="...">
-                        <div class="card-body">
-                            <p class="card-text text-center text-white-50 description">Mas papitas</p>
-                            <h5 class="text-white">Precio: <span class="precio text-white">$400</span></h5>
-                            <div class="d-grid gap-2">
-                                <!--Clase para que el btn ocupe el 100% del contenedor-->
-                                <button class="btn btn-primary button">Añadir al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </section>
-
+<body>
+    <div class="bg-dark ">
+        <!-- header -->
+        <header class="container-fluid bg-dark position-sticky top-0 ">
+            <ul class="nav nav-tabs container  mb-1 py-2" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                        role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                        type="button" role="tab" aria-controls="profile" aria-selected="false">Productos</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                        role="tab" aria-controls="contact" aria-selected="false">Carrito</a>
+                </li>
+            </ul>
+        </header>
+        <!-- Alert BOOSTRAP -->
+        <div class="alert alert-primary container position-sticky top-0 hide text-center" role="alert">
+            Producto añadido al carrito
         </div>
+        <div class="alert alertDelete alert-danger container position-sticky top-0 hide text-center" role="alert">
+            Producto Eliminado del carrito
+        </div>
+        <!-- Main -->
+        <main class="tab-content" id="myTabContent">
+            <!-- HOME -->
+            <div class="tab-pane fade text-white container" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <section class="home" >
+                    <div class="home_art">
+                        <h3 class="display-6">Pedidos Morfi</h3>
+                        <p class="">"El Placer de comer rico"</p>
+                        <div class="home_art_flex">
+                        
+                        <img src="img/cartoon-1299636.svg" alt="img" class="img_home">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Productos -->
+            <div class="tab-pane fade  show active container" id="profile" role="tabpanel"
+                aria-labelledby="profile-tab">
+                <h4 class="text-muted text-center display-6">Productos</h4>
 
-        <div class="tab-pane fade carrito show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <section class="container">
-                <h3 class="text-center text-primary"><img src="img/cart.svg" alt=".." class="carrito-img mx-2">Carrito</h3>
-                
-            <table class="table table-dark table-hover">
-                <thead>
-                    <tr class="text-primary">
-                        <th scope="col">#</th>
-                        <th scope="col">Productos</th>
-                        <th scope="col">Precio</th>
-                        <th scope="col">Cantidad</th>
-                    </tr>
-                </thead>
-                <tbody class="tbody">
-                    <!-- <tr>
+                <section class="row row-cols-sm-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                    <!-- art1 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Pizza</h5>
+                            <img src="img/pizza-23477.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Porcion de pizza</p>
+                                <h5 class="text-white text-center">Precio: <span class="precio text-white ">$200</span>
+                                </h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art2 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Papas Fritas</h5>
+                            <img src="img/cartoon-chips-2029737.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Porcion de Papas Fritas</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$200</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art3 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Hamburguesa</h5>
+                            <img src="img/cheeseburger-34315.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Hamburgusa Clasica</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$500</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art4 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Galleta</h5>
+                            <img src="img/anthropomorphic-1297309.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Galletita jengibre</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$100</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art5 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Cerveza</h5>
+                            <img src="img/beer-311090.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Porron de Cerveza</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$300</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art6 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Huevo Frito</h5>
+                            <img src="img/egg-575756.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Para mojar el pancito</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$150</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art7 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Jugo de naranja</h5>
+                            <img src="img/juice-25189.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">juguito en carton</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$100</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- art8 -->
+                    <article class="col d-flex justify-content-center mb-2">
+                        <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                            <h5 class="card-title pt-2 text-center text-primary">Papitas</h5>
+                            <img src="img/cartoon-chips-2029737.svg" class="card-img-top img" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-center text-white-50 description">Mas papitas</p>
+                                <h5 class="text-white">Precio: <span class="precio text-white">$400</span></h5>
+                                <div class="d-grid gap-2">
+                                    <!--Clase para que el btn ocupe el 100% del contenedor-->
+                                    <button class="btn btn-primary button">Añadir al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+            </div>
+            <!-- Carrito -->
+            <div class="tab-pane fade carrito " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="container">
+                    <h3 class="text-center text-muted text-center display-6">Carrito <img src="img/cart.svg" alt=".."
+                            class="carrito-img mx-2"> </h3>
+
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr class="text-primary">
+                                <th scope="col">#</th>
+                                <th scope="col">Productos</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <!-- <tr>
                         <th scope="row">1</th>
                         <td class="table__productos">
                             <img src="/img/cartoon-chips-2029737.svg" alt=".." class="" >
@@ -195,29 +211,30 @@
                             <button class="delete btn btn-danger">x</button>
                         </td>
                     </tr> -->
-                </tbody>
-            </table>
-            <br><br>
-            <section class="row mx-4 text-white-50">
-                <div class="col">
-                    <h3 class="itemCarritoTotal">Total: 0</h3>
-                </div>
-                <div class="col d-flex justify-content-end">
-                    <button class="btn btn-success">Comprar</button>
-                </div>
+                        </tbody>
+                    </table>
+                    <br><br>
+                    <section class="row mx-4 text-white-50">
+                        <div class="col">
+                            <h3 class="itemCarritoTotal">Total: 0</h3>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <button class="btn btn-success">Comprar</button>
+                        </div>
+                    </section>
+
+            </div>
             </section>
 
-        </div>
-            </section>
+        </main>
+        <!-- footer -->
+        <footer class="bg-dark p-3 mt-1">
+            <p class="text-center  m-0 text-muted">
+                &copy; Santiago L Martinez
+            </p>
+        </footer>
 
-    </main>
-
-    <footer class="bg-dark p-3 mt-1">
-        <p class="text-center  m-0 text-muted">
-            &copy; Santiago L Martinez
-        </p>
-    </footer>
-
+    </div>
     <!-- scripts -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
